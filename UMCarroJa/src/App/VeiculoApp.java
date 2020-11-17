@@ -239,7 +239,7 @@ public class VeiculoApp
             System.out.println("\f");
             menuLeitura.executa();
             switch (menuLeitura.getOpcao()) {
-                case 1: Leitura l = new Leitura("./Documentos/logsPOO_carregamentoInicial.txt");
+                case 1: Leitura l = new Leitura("./Documents/logsPOO_carregamentoInicial.txt");
                         try{
                             l.readFile(this.gestorUtilizadores,this.gestorVeiculos,this.gestorAlugueres, this.gestorNotificacoes);
                             System.out.println("Carregamento do ficheiro efetuado com sucesso.");
